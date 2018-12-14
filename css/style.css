@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 0px;
+  background-color: #fafafa;
+}
+
+.flex-container{
+  display: flex;
+  width: 50vw;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 20%;
+}
+
+.image {
+  height: 90Vh;
+}
+.main-content{
+  display: flex;
+  flex-direction: column;
+  border: solid #e6e6e6 1px;
+  background-color: white;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content div{
+  margin: 5px;
+}
+
+.heading {
+  text-align: center;
+  color: #AAA;
+}
+
+.or {
+  color: #AAA;
+}
+button {
+  background: #3897f0;
+  color: white;
+  padding: 5px 50px;
+  border-radius: 10%;
+}
+
+.form {
+  padding: 1px 0px;
+}
+
+.legal {
+  text-align: center;
+  color: #AAA;
+}
+
+.legal a{
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+
+input{
+  width: 250px;
+  height: 30px;
+  border: 1px solid #efefef;
+  background-color: #fafafa;
+}
+
+.log-in {
+  background-color: White;
+  border: solid 1px #e6e6e6;
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+}
+.log-in a{
+  text-decoration: none;
+}
+
+.applogos {
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+  float: right;
+}
+ .applogos img{
+   margin: 10px;
+ }
+.footer {
+ justify-content: center;
+
+}
+
+.footer a{
+
+  text-decoration: none;
+  color: black;
+  padding: 0px 5px;
+}
+
+nav {
+  display: inline-block;
+  float: left;
+  padding-left: 10%;
+}
+
+.copyright{
+  display: inline-block;
+  float: right;
+  padding-right: 20%;
+  color: #CCC;
+}
+
+@media (max-width: 1000px) {
+  .image {
+    display: none;
+  }
+
+}
